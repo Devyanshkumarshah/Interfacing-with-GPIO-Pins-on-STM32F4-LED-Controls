@@ -1,0 +1,16 @@
+There are mainly 5 Steps to interface with a LED
+
+1. Identify the GPOI port (a perifheral) used to connect the LED
+  a. let's suppose we have taken port D [GPIOD]
+2. Identify the Pin where the LED is connected 
+  a. Pin_no 12 (PD12)
+3. Activate GPIOD peripheral (Enable the Clock)
+  a. It is very impoertant Step to enable the clock.
+  b. until the peripheral clock is not enabled the Peripheral is DEAD.
+  c. Once activated, the Peripheral is ready to take your configuration or argument.
+4. Configure the GPIO pin mode as output.
+  a. since Driving the LED wheather (ON/OFF), the operation mode of the GPIO pin has to be configured as OUTPUT.
+5. Write to the GPIO pin
+  a. 1(HIGH) to make the GPIO pin state as HIGH(3.3V)
+  b. 0(LOW) to make the GPIO pin state LOW(0V)
+
