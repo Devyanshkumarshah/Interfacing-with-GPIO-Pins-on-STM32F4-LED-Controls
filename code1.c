@@ -19,7 +19,7 @@ int main(void)
 
   //3. Set the 12th bit position of the output Data Registor to make IO pin 12 to toggle
   
-  while (1)
+  while (1) //this make a infinite loop
   {
       *pPortDoutReg = *pPortDoutReg | (1<<12) ; //this will make the LED High 
 
