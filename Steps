@@ -1,4 +1,4 @@
-There are mainly 5 Steps to interface with a GPIO pin.
+There are mainly 5 Steps to interface with  GPIO pin.
 
 1. Identify the GPOI port (a perifheral) used to connect the LED
   a. let's suppose we have taken port D [GPIOD]
