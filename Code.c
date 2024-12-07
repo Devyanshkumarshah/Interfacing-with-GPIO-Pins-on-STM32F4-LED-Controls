@@ -1,5 +1,4 @@
-// Write a Program which reads the status of the pin PA0. If the status of the pin PA0 is low then turn off the onboard LED(PD12) and if the PA0 is High then turn on the LED 
-//change the status of the pin PA0 manually by connecting between GND and VCC points of the Board
+
 #include<stdint.h>
 
 int main(void) 
